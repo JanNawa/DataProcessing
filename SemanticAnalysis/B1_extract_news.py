@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: Jan Chayopathum
+@author: Jan
 """
 # import libraries
 import requests as r

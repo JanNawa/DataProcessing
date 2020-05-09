@@ -4,7 +4,7 @@ Data Processing for Semantic and Sentiment Analysis
 
 ## Files and External Data
 
-### [SemanticAnalysis](SementicAnalysis)
+### [SemanticAnalysis](SemanticAnalysis)
 
 **Overview**
 

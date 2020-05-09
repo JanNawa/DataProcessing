@@ -13,25 +13,27 @@ Then, the program evaluate TF-IDF to evaluate the documents in document reposito
 
 **Source Code**
 
-1. [B1_extract_news.py](SementicAnalysis/B1_extract_news.py)
+1. [B1_extract_news.py](SemanticAnalysis/B1_extract_news.py)
+
 The program retrieves the news articles from news API using the specified keywords.
 Then, the program extract only “title”, “description”, and “content” from each news article.
 Next, write the retrieved data to text file and store in “documents” folder.
 
-The sample of documents are in [documents](SementicAnalysis/documents)
+The sample of documents are in [documents](SemanticAnalysis/documents)
 
-2. [B2_news_TF-IDF.py](SementicAnalysis/B2_news_TF-IDF.py)
+2. [B2_news_TF-IDF.py](SemanticAnalysis/B2_news_TF-IDF.py)
+
 The program uses Term frequency-inverse document frequency (TF-IDF) to evaluate the relevant of keyword in a document in document repository. 
 TF-IDF is done by measuring 2 things which are document frequency and term frequency.
 
-The source code divided into 3 sections:
-	* **Part A** : Document Frequency
-	Calculate the value of document frequency that related to the keywords.
-	The [output of document frequency](SemanticAnalysis/output/A_document_frequency.csv) is saved in CSV format.
-	* **Part B** : Term Frequency
-	Calculate the value of term frequency that related to the keywords.
-	The [output of term frequency](SemanticAnalysis/output/B_term_frequency.csv) is saved in CSV format.
-	* **Part C** : Print the news article with the highest relative frequency on the console
+The source code divided into 3 sections:\
+* **Part A** : Document Frequency\
+Calculate the value of document frequency that related to the keywords.\
+The [output of document frequency](SemanticAnalysis/output/A_document_frequency.csv) is saved in CSV format.\
+* **Part B** : Term Frequency\
+Calculate the value of term frequency that related to the keywords.\
+The [output of term frequency](SemanticAnalysis/output/B_term_frequency.csv) is saved in CSV format.\
+* **Part C** : Print the news article with the highest relative frequency on the console
 
 The sample of output are in [output](SementicAnalysis/output).
 

@@ -26,13 +26,13 @@ The sample of documents are in [documents](SemanticAnalysis/documents)
 The program uses Term frequency-inverse document frequency (TF-IDF) to evaluate the relevant of keyword in a document in document repository. 
 TF-IDF is done by measuring 2 things which are document frequency and term frequency.
 
-The source code divided into 3 sections:\
+The source code divided into 3 sections:
 * **Part A** : Document Frequency\
 Calculate the value of document frequency that related to the keywords.\
-The [output of document frequency](SemanticAnalysis/output/A_document_frequency.csv) is saved in CSV format.\
+The [output of document frequency](SemanticAnalysis/output/A_document_frequency.csv) is saved in CSV format.
 * **Part B** : Term Frequency\
 Calculate the value of term frequency that related to the keywords.\
-The [output of term frequency](SemanticAnalysis/output/B_term_frequency.csv) is saved in CSV format.\
+The [output of term frequency](SemanticAnalysis/output/B_term_frequency.csv) is saved in CSV format.
 * **Part C** : Print the news article with the highest relative frequency on the console
 
 The sample of output are in [output](SementicAnalysis/output).
@@ -40,7 +40,8 @@ The sample of output are in [output](SementicAnalysis/output).
 ### [SentimentAnalysis](SentimentAnalysis)
 
 **Overview**
-XXX
+
+The program find the polarity of the tweets by doing the sentiment analysis.
 
 **Source Code**
 
